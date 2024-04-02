@@ -4,6 +4,7 @@
     import Footer from "./Footer.svelte";
     import Settings from './Settings.svelte';
     import { theme } from "$lib/stores";
+    import { base } from '$app/paths';
     import "$lib/css/theme.css";
 
     export let title = "Color Palette";
@@ -12,7 +13,7 @@
 </script>
 
 <svelte:head>
-	<link rel="stylesheet" href="/theme/{$theme}-theme.css" />
+	<link rel="stylesheet" href="{base}/theme/{$theme}-theme.css" />
 </svelte:head>
 
 
