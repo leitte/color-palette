@@ -1,0 +1,16 @@
+:root {
+    --white-color: #fdfdfd;
+    --theme-color: #ffffff;
+    --brand-color: cornflowerblue;
+
+    --background-color: #7d7980;
+    --text-color: #000;
+    --annotation-color: #3c3c3c;
+    --border-color: #605c62;
+
+    --header-text-color: #000;
+    --header-background-color: #7d7980;
+    --shadow-color: rgba(0,0,0,0.1);
+    --footer-text-color: lighten(var(--white-color), 0%);
+    --footer-background-color: rgba(0,0,0,0.05);
+}

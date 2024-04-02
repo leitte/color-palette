@@ -1,0 +1,29 @@
+@import '@fontsource/roboto';
+
+:root {
+    --base-font-family: 'Roboto', sans-serif;
+    --base-font-size: 14px;
+    --base-font-weight: 400;
+    --small-font-size: calc(var(--base-font-size) * 0.875);
+    --base-line-height: 1.6;
+
+    --content-width: 960px;
+    --spacing-unit: 30px;
+
+    /*
+    --white-color: #fdfdfd;
+    --text-color: #000;
+    --annotation-color: #999;
+    --theme-color: #ffffff;
+    --brand-color: cornflowerblue;
+    --background-color: #fff;
+    --dark-background-color: #0e0e0e;
+    --dark-text-color: #b0b0b0;
+    */
+
+    --header-height: calc(var(--base-line-height) * var(--base-font-size) * 2.85);
+
+    --footer-height: calc(var(--header-height) * 1.05);
+    --footer-text-color: lighten(var(--white-color), 0%);
+    --footer-background-color: rgba(0,0,0,0.05);
+}
