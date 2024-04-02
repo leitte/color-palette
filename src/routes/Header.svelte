@@ -1,5 +1,6 @@
 <script>
     import { createEventDispatcher } from "svelte";
+    import { base } from '$app/paths';
     import "$lib/css/theme.css";
 
     export let title = "Title";
@@ -14,12 +15,12 @@
     <div class="wrapper">
         <div class="site-header-inner">
             <div class="site-brand">
-                <a class="site-brand-inner" rel="author" href="/">
+                <a class="site-brand-inner" rel="author" href="{base}/">
                     <span class="text-item">{title}</span>
                 </a>
             </div>
             <nav class="site-nav">
-                <a href="/">HOME</a>
+                <a href="{base}/">HOME</a>
                 <button on:click={settingsClicked}>
                     <span style="display: inline-block; vertical-align: middle;">
                         <svg
